@@ -1,0 +1,17 @@
+.boton {
+    background-color: red;
+    text-align: center;
+    color: greenyellow;
+    border-radius: 20px;
+    border: 1px solid black;
+    &:hover {
+        filter: opacity(75%);
+        background-color: rgb(74, 186, 214);
+    }
+}
+
+.botonRojo {
+    @extend .boton;
+    background-color: red;
+    color: yellow;
+}
